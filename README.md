@@ -47,7 +47,7 @@ python3 CDN_IP.py -f ips.txt
 ---
 
 #### 5️⃣ ****Required Input File Format** (Input File Format)**
-```md
+
 ## Input File Format
 
 The CDN range file (`ranges.txt`) should contain IP ranges in the following formats:

@@ -21,7 +21,7 @@ A simple and efficient tool to process CDN IP ranges, expand them into individua
 
 ### 1️⃣ Clone the repository:
 ```sh
-git clone https://github.com/yourusername/CDN-IP-Checker.git
+git clone https://github.com/SoreOff/CDN-IP-Checker.git
 cd CDN-IP-Checker
 ```
 

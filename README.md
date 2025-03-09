@@ -70,6 +70,21 @@ The IP list file (`ips.txt`) should contain one IP per line for checking.
 4. When checking an IP, it searches in the stored file for a match.
 
 
+## Extracting IP Ranges
+Before using this tool, you need to extract CDN IP ranges. You can obtain these ranges from official sources or use tools like:
+
+`Cloudflare CDN Ranges` → Cloudflare Docs
+`Akamai`, `Fastly`, `AWS`, etc. → Check their official documentation
+Using `cdn-ranges` tool:
+```sh
+cdn-ranges -output ranges.txt
+#OR just v4
+cdn-ranges -v4 -output ranges.txt
+
+#Just cloudflare
+cdn-ranges -provider cloudflare
+```
+
 ## Limitations
 
 - Only supports IPv4 (IPv6 addresses are ignored).

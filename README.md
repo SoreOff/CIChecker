@@ -22,7 +22,7 @@ A simple and efficient tool to process CDN IP ranges, expand them into individua
 ### 1️⃣ Clone the repository:
 ```sh
 git clone https://github.com/SoreOff/CIChecker.git
-cd CDN-IP-Checker
+cd CIChecker
 ```
 
 
